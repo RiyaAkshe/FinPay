@@ -33,6 +33,7 @@ Bash
 
 node -v
 npm -v
+
 5.2. Repository Cloning:
 
 Obtain the project's Git repository URL.
@@ -42,6 +43,7 @@ Bash
 
 git clone [REPOSITORY_URL]
 This command will download the project files into a new directory named after the repository.
+
 5.3. Directory Navigation:
 
 Change the current working directory to the newly cloned project folder:
@@ -49,16 +51,19 @@ Bash
 
 cd [project-folder-name]
 (e.g., cd finpay-website)
+
 5.4. Dependency Installation:
 
 Within the project directory, install all required npm packages (e.g., react, react-router-dom) specified in the package.json file:
 Bash
 
 npm install
+
 5.5. Development Server Commencement:
 
 Upon successful dependency installation, initiate the React development server:
 Bash
 
 npm start
+
 This action will compile the React application, launch a local development server (typically accessible at http://localhost:3000), and automatically open the application in the default web browser.
